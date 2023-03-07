@@ -1,0 +1,112 @@
+<header class="container">
+    <!-- Main navigation -->
+    <nav class="primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+    </nav>
+    <link rel="stylesheet" type="text/css" href="/resume/assets/style.css">
+  </header>
+  <!-- Main -->
+  <div clas="row">
+  <main itemscope itemtype="http://schema.org/Person" class="container">
+    <h1>Johnnie Smith</h1>
+    <section id="about">
+      <h2 class="visuallyhidden">Personal details</h2>
+      <img itemprop="image" src="/resume/assets/img/20191010_173936.jpg" alt="Johnnie Smith" class="img">
+      <p itemprop="description">My name is Johnnie Smith and this is a sample resume being used to test out mobile web design at the University of Arkansas at Little Rock</p>
+      <dl>
+        <dt>Name</dt>
+        <dd itemprop="name">
+          <span itemprop="givenName">Johnnie </span> <span itemprop="familyName">Smith III</span>
+        </dd>
+        <dt>Date of birth</dt>
+        <dd itemprop="birthDate"><time datetime="2000-08-14">08/14/2000</time></dd>
+        <dt>Nationality</dt>
+        <dd itemprop="nationality">United States</dd>
+        <dt>Location</dt>
+        <dd itemprop="homeLocation">Arkansas</dd>
+        <dt>Telephone</dt>
+        <dd>
+          <a itemprop="telephone" href="tel:555.555.5555">555.555.5555</a>
+        </dd>
+        <dt>Email</dt>
+        <dd>
+          <a itemprop="email" href="mailto:jlsmith15@ualr.edu">jlsmith15@ualr.edu</a>
+        </dd>
+        <dt>Address</dt>
+  
+        <dd itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="streetAddress">2221 Wentwood Valley Dr, Apt 44</span>
+          <span itemprop="addressLocality">Little Rock</span>
+          <span itemprop="postalCode">72212</span>
+          <span itemprop="addressCountry">USA</span>
+        </dd>
+  
+      </dl>
+      <ul class="related-links">
+        <li><a itemprop="url" rel="me" href="https://github.com/profile"><i class="fab fa-github-square"></i> github</a></li>
+        <li><a itemprop="url" rel="me" href="http://linkedin.com/profile"><i class="fab fa-linkedin-in"></i> linkedin</a></li>
+        <li><a itemprop="url" href="resume.pdf" download><i class="far fa-file-pdf"></i> pdf resume</a></li>
+      </ul>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li class="skill">HTML</li>
+        <li class="skill">Microsoft Office</li>
+        <li class="skill">Java</li>
+        <li class="skill">Css</li>
+      </ul>
+      
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <!-- current job -->
+      <article class="job">
+        <h3 itemprop="jobTitle">Retail Sales Associate</h3>
+        <div itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <span itemprop="name">Neptune Retail Solutions</span>
+          <span>June 2019 - Present</span>
+          <p itemprop="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
+          <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+            <a itemprop="url" href="https://www.neptuneretailsolutions.com/">Company Site</a>
+            <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="addressLocality">Anywhere,USA</span>
+          </span>
+          </span>
+        </div>
+      </article>
+      <!-- Previous Jobs - Notice Slightly Different Format-->
+      <article class="job" itemscope itemtype="http://schema.org/Event/Job">
+        <h3 itemprop="name">Food Runner</h3>
+        <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+            <span itemprop="name">Marcus Theatres</span>
+        <a itemprop="url" href="http://link-to-company.com">Company URL</a>
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+              <span itemprop="addressLocality">Anywhere,USA</span>
+        </span>
+        </span>
+        <span itemprop="startDate" content="2019-04-12">April 2019</span> - 
+        <span itemprop="endDate" content="2019-07-01">July 2019</span>
+        <p itemprop="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
+      </article>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <article class="certificate" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+        <h3 itemprop="description"><abbr title="High School Graduate">High School Diploma</abbr> General Studies</h3>
+        <span itemprop="name">Arkansas High</span>
+        <span itemprop="location" itemscope>Anywhere, USA</span>
+        <span>2014-2018</span>
+      </article>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div id="copyright">
+      &copy; 2023 Johnnie Smith | <a href="#top">Top</a>
+    </div>
+    </div>
+  </footer>

@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+@media screen and (min-width:768px){
+    .row{
+      grid-template-columns:repeat(2,1fr);
+    }
+  }
+  
+  /* Desktop */
+  
+  @media screen and (min-width:992px){
+      .row{
+      grid-template-columns:repeat(4,1fr);
+    }
+  }

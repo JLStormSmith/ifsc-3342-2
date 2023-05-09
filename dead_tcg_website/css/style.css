@@ -28,9 +28,9 @@ body {
 
 #mainNav {
 	background-color: #a9a9f5;
-	padding: 10px;
+	padding: 5px;
 	position: absolute;
-	top: 20px;
+	top: 5%;
 	
 	justify-content: center;
 }
@@ -117,5 +117,12 @@ img{
 
 }
 @media screen and (max-width: 450px){
-    
+	#header{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+    #mainNav-toggle{
+		display:flex;
+	}
 }

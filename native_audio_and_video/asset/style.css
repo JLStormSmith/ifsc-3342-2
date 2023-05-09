@@ -1,0 +1,32 @@
+Try
+
+  body {
+    min-height: 56.25vw;
+    font-family: Roboto, "Helvetica Neue";
+  }
+  .background-player-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .background-player-wrapper p {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 4em;
+  }
+
+  .background-player {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+
+  .background-player .fp-ui {
+    display: none;
+  }
+  
